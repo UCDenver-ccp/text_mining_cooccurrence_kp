@@ -1,0 +1,24 @@
+{
+    "version": "0.1",
+    "requires": [
+        "biothings_client",
+        "obonet"
+    ],
+    "__metadata__": {
+        "license_url": "",
+        "licence": "CC BY 4.0",
+        "url": ""
+    },
+    "dumper": {
+        "data_url": [
+            "http://localhost:8081/dataupload/src/concept-cooccur-ngd.nodes.tsv.gz",
+            "http://localhost:8081/dataupload/src/concept-cooccur-ngd.edges.tsv.gz"
+        ],
+        "uncompress": true,
+        "release": "version:get_release"
+    },
+    "uploader": {
+        "parser": "parser:load_data",
+        "on_duplicates": "error"
+    }
+}
