@@ -15,7 +15,8 @@
             "https://storage.googleapis.com/translator-tm-provider-knowledge-graphs/concept-cooccurrence/current/ngd-concept-cooccur.current.edges.kgx.tsv.gz"
         ],
         "uncompress": true,
-        "release": "version:get_release"
+        "release": "version:get_release",
+        "schedule": "0 0 * * 1"
     },
     "uploader": {
         "parser": "parser:load_data",
