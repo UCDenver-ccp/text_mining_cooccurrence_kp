@@ -88,8 +88,8 @@ def query_prs_to_ncbigenes(prs):
 
 
 def load_data(data_folder):
-    nodes_file_path = os.path.join(data_folder, "concept-cooccur-ngd.nodes.tsv")
-    edges_file_path = os.path.join(data_folder, "concept-cooccur-ngd.edges.tsv")
+    nodes_file_path = os.path.join(data_folder, "ngd-concept-cooccur.current.nodes.kgx.tsv")
+    edges_file_path = os.path.join(data_folder, "ngd-concept-cooccur.current.edges.kgx.tsv")
     nodes_f = open(nodes_file_path)
     edges_f = open(edges_file_path)
     prs = set()

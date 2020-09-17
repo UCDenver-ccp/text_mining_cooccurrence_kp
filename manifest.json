@@ -11,8 +11,8 @@
     },
     "dumper": {
         "data_url": [
-            "http://localhost:8081/dataupload/src/concept-cooccur-ngd.nodes.tsv.gz",
-            "http://localhost:8081/dataupload/src/concept-cooccur-ngd.edges.tsv.gz"
+            "https://storage.googleapis.com/translator-tm-provider-knowledge-graphs/concept-cooccurrence/current/ngd-concept-cooccur.current.nodes.kgx.tsv.gz",
+            "https://storage.googleapis.com/translator-tm-provider-knowledge-graphs/concept-cooccurrence/current/ngd-concept-cooccur.current.edges.kgx.tsv.gz"
         ],
         "uncompress": true,
         "release": "version:get_release"
