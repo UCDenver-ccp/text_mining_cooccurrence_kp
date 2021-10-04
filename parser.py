@@ -45,7 +45,7 @@ def load_data(data_folder):
                 },
                 "association": {
                     "edge_label": line[1].split(':')[-1],
-                    "edge_attributes": json.loads(line[-1])
+                    "edge_attributes": json.loads(line[-1], parse_float=str, parse_int=str)
                 },
                 "object": {
                     "id": line[2],
