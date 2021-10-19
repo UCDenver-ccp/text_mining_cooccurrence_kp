@@ -36,6 +36,8 @@ def load_data(data_folder):
         for line in reader:
             subject_parts = line[0].split(':')
             object_parts = line[2].split(':')
+            if line[0] not in entity_dict or line[2] not in entity_dict:
+                continue
             yield {
                 "_id": line[3],
                 "subject": {
